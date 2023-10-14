@@ -1,0 +1,30 @@
+
+*{ margin: 0;
+   padding: 0;
+ background-color: rgb(26, 179, 244);}
+
+ html{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;}
+
+
+
+ nav{ margin-top: 10px;
+    padding-top: 30px;
+      padding-left: 200px; 
+      padding-right: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   color: white;}
+nav ul li{  
+    display: inline-block;
+      padding-right: 10px ;}
+nav ul li a  { text-decoration:none ; 
+   color:  white;
+text-transform: capitalize;
+}
+nav ul li a:hover{ color: brown; }
+
+button{color: white;  padding: 8px; border-color: white;}   
+
+button:hover{ background-color: brown;}
