@@ -28,3 +28,19 @@ nav ul li a:hover{ color: brown; }
 button{color: white;  padding: 8px; border-color: white;}   
 
 button:hover{ background-color: brown;}
+
+.content{ display: flex;
+         margin-top: 200px;
+         padding-left:200px;
+        color: white;}
+ .content a{ text-decoration: none;} 
+ 
+.part1{ align-items: center;}
+h1{ padding-bottom: 20px;}
+p{ padding-bottom: 20px;}
+.btn2{ background-color: green;
+       border-radius: 20px;
+       height: 40px;
+       width: 150px;
+     border: none;
+    padding: 10px;}
