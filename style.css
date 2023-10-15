@@ -1,10 +1,9 @@
 
 *{ margin: 0;
-   padding: 0;
- background-color: rgb(26, 179, 244);}
+   padding: 0; background-color: rgb(46, 202, 250);}
 
  html{ font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;}
+    font-size: 17px; }
 
 
 
@@ -12,7 +11,7 @@
     padding-top: 30px;
       padding-left: 200px; 
       padding-right: 200px;
-      display: flex;
+      display: flex; 
       justify-content: space-between;
       align-items: center;
    color: white;}
@@ -22,25 +21,61 @@ nav ul li{
 nav ul li a  { text-decoration:none ; 
    color:  white;
 text-transform: capitalize;
+transition: 0.9s;
+
 }
-nav ul li a:hover{ color: brown; }
+nav ul li a:hover{ background-color:#f9004d;  }
 
 button{color: white;  padding: 8px; border-color: white;}   
 
-button:hover{ background-color: brown;}
+button:hover{ background-color:#f9004d; transform: scale(1.1);}
 
-.content{ display: flex;
+.content{  
+    display: flex; 
          margin-top: 200px;
          padding-left:200px;
         color: white;}
  .content a{ text-decoration: none;} 
  
-.part1{ align-items: center;}
+.part1{  align-items: center;}
+
 h1{ padding-bottom: 20px;}
+
 p{ padding-bottom: 20px;}
+
 .btn2{ background-color: green;
        border-radius: 20px;
        height: 40px;
        width: 150px;
      border: none;
-    padding: 10px;}
+    padding: 10px;
+transition: 0.4s;}
+
+.part2{ 
+display: flex;  
+margin-left: 200px ;
+align-items: center ; 
+/*background-color: white; height: 300px; width: 300px;*/
+ }
+
+.form{ display: flex; 
+    position: absolute;
+
+     background-color: aliceblue; 
+     text-align: center;
+      padding: 5px;
+       margin: 5px;
+        width: 300px; height: 300px; }
+
+select{ margin: 10px; padding: 5px; width:215px ;}
+
+.btn3{ margin: 10px; width: 220px;
+     background-color: rgb(11, 115, 243); 
+    border-radius: 20px;
+    border: none;
+transition: 0.4s ;}
+
+input{ 
+      padding: 5px; margin: 10px; width: 216px  ; background-color: white;
+     }      
+     
