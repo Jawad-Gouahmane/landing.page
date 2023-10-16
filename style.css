@@ -1,6 +1,11 @@
 
 *{ margin: 0;
-   padding: 0; background-color: rgb(46, 202, 250);}
+   padding: 0;
+    }
+
+    body{
+      background-color: rgb(46, 202, 250);
+    }
 
  html{ font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px; }
@@ -55,17 +60,20 @@ transition: 0.4s;}
 display: flex;  
 margin-left: 200px ;
 align-items: center ; 
-/*background-color: white; height: 300px; width: 300px;*/
- }
+background-color: white; height: 350px; width: 300px;
+
+ margin-top: -60px;
+ box-shadow: 5px 5px 5px gray }
 
 .form{ display: flex; 
-    position: absolute;
-
-     background-color: aliceblue; 
+   
+    color: black;
      text-align: center;
-      padding: 5px;
+      padding-left: 20px;
        margin: 5px;
-        width: 300px; height: 300px; }
+        width: 300px; height: 300px;
+        
+   }
 
 select{ margin: 10px; padding: 5px; width:215px ;}
 
@@ -73,9 +81,18 @@ select{ margin: 10px; padding: 5px; width:215px ;}
      background-color: rgb(11, 115, 243); 
     border-radius: 20px;
     border: none;
-transition: 0.4s ;}
+transition: 0.4s ;} 
+
+h2{padding-top: 10px;
+    padding-bottom: 5px;
+   margin-top: 10px ;}
 
 input{ 
-      padding: 5px; margin: 10px; width: 216px  ; background-color: white;
-     }      
+      padding:7px; 
+      margin: 10px; 
+      width: 200px ;
+       margin-left: 15px; 
+      background-color: rgb(248, 245, 245) ;
+       border: none; }    
+ select{ border: none ; background-color: rgb(248, 245, 245)}        
      
